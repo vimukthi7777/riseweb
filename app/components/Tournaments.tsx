@@ -9,7 +9,7 @@ export default function Tournaments() {
       map: "BERMUDA",
       entry: "FREE",
       tag: "FREE FIRE",
-      image: "/games/free-fire.jpg"
+      image: "/games/Freefire.jpg"
     },
     {
       title: "VALORANT PREMIER LEAGUE",
@@ -20,7 +20,7 @@ export default function Tournaments() {
       map: "ALL MAPS",
       entry: "PAID",
       tag: "VALORANT",
-      image: "/games/valorant.jpg"
+      image: "/games/Valorant.jpg"
     },
     {
       title: "PUBG MOBILE ULTIMATE CHALLENGE",
@@ -31,7 +31,7 @@ export default function Tournaments() {
       map: "ERANGEL",
       entry: "FREE",
       tag: "PUBG MOBILE",
-      image: "/games/pubg.jpg"
+      image: "/games/Pubg.jpg"
     }
   ];
 

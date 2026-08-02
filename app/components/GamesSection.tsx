@@ -4,10 +4,10 @@ import { useEffect, useRef } from 'react';
 
 export default function GamesSection() {
   const games = [
-    { name: "PUBG Mobile", image: "/games/pubg.jpg" },
-    { name: "Free Fire", image: "/games/FreeFire.jpg" },
-    { name: "Valorant", image: "/games/valorant.jpg" },
-    { name: "Counter Strike 2", image: "/games/cs2.jpg" },
+    { name: "PUBG Mobile", image: "/games/Pubg.jpg" },
+    { name: "Free Fire", image: "/games/Freefire.jpg" },
+    { name: "Valorant", image: "/games/Valorant.jpg" },
+    { name: "Counter Strike 2", image: "/games/CS2.jpg" },
     { name: "Mobile Legends", image: "/games/MobileLegend.jpg" },
     { name: "Rainbow Six", image: "/games/Seige.jpg" },
   ];
