@@ -17,7 +17,7 @@ async function getTournaments(): Promise<Tournament[]> {
   const JSON_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json`;
 
   try {
-    const res = await fetch(JSON_URL, { next: { revalidate: 3600 } });
+    const res = await fetch(JSON_URL, { cache: "no-store" });
     const text = await res.text();
     const jsonString = text.substring(47, text.length - 2);
     const json = JSON.parse(jsonString);
