@@ -10,6 +10,7 @@ interface Tournament {
   entry: string;
   tag: string;
   image: string;
+  registrationLink: string;
 }
 
 async function getTournaments(): Promise<Tournament[]> {
@@ -34,6 +35,7 @@ async function getTournaments(): Promise<Tournament[]> {
         entry: row.c[6]?.v ?? "",
         tag: row.c[7]?.v ?? "",
         image: row.c[8]?.v ?? "",
+        registrationLink: row.c[9]?.v ?? "",
       }))
       // Filter out header row and invalid/empty rows
       .filter(
@@ -149,9 +151,20 @@ export default async function Tournaments() {
                     </div>
                   </div>
 
-                  <button className="w-full py-4 bg-white/5 hover:bg-[#08D2C2] text-white hover:text-black font-black text-xs uppercase tracking-widest rounded-xl transition-all border border-white/10 hover:border-[#08D2C2]">
-                    Register Now
-                  </button>
+                  {t.registrationLink ? (
+                    <a
+                      href={t.registrationLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full py-4 bg-white/5 hover:bg-[#08D2C2] text-white hover:text-black font-black text-xs uppercase tracking-widest rounded-xl transition-all border border-white/10 hover:border-[#08D2C2]"
+                    >
+                      Register Now
+                    </a>
+                  ) : (
+                    <button disabled className="w-full py-4 bg-zinc-800/50 text-zinc-500 font-black text-xs uppercase tracking-widest rounded-xl border border-white/10 cursor-not-allowed">
+                      Coming Soon
+                    </button>
+                  )}
                 </div>
               </div>
             ))}
