@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat", weight: ["900"] });
 
 export const metadata: Metadata = {
-  title: "RISE LK | Sri Lanka's Premier Gaming Platform",
+  title: "RISE LK",
   description: "Join the most competitive gaming tournaments in Sri Lanka. Rise among champions.",
 };
 

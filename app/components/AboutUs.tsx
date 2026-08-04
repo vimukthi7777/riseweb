@@ -113,7 +113,7 @@ export default function AboutUs() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 <div className="absolute bottom-8 left-8">
-                  <div className="text-4xl font-black text-white italic leading-none">SINCE<br />2022</div>
+                  <div className="text-4xl font-black text-white italic leading-none">SINCE<br />2026</div>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function AboutUs() {
                   <strong className="text-white">RISE LK</strong> started with a simple vision: to create a professional ecosystem for Sri Lankan gamers to showcase their skills on a global stage.
                 </p>
                 <p>
-                  Today, we are more than just a tournament organizer. We are a community of over 10,000 players, creators, and enthusiasts who believe in the power of competitive gaming.
+                  Today, we are more than just a tournament organizer. We are a community of over 1000 players, creators, and enthusiasts who believe in the power of competitive gaming.
                 </p>
               </div>
 
