@@ -9,6 +9,7 @@ export default function GamesSection() {
     { name: "Valorant", image: "/games/Valorant.jpg" },
     { name: "Counter Strike 2", image: "/games/CS2.jpg" },
     { name: "Mobile Legends", image: "/games/MobileLegend.jpg" },
+    { name: "Overwatch", image: "/games/Overwatch.jpg" },
     { name: "Rainbow Six", image: "/games/Seige.jpg" },
   ];
 

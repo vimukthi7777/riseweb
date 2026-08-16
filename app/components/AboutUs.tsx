@@ -58,6 +58,7 @@ const mainSocials = {
   youtube: "https://www.youtube.com",
   tiktok: "https://www.tiktok.com",
   discord: "https://discord.gg/74RtuZmh2",
+  instagram: "",
 };
 
 export default function AboutUs() {

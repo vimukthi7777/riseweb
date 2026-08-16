@@ -1,10 +1,12 @@
 import Image from "next/image";
 
 const footerSocials = [
-  { name: "WHATSAPP", href: "#" },
-  { name: "DISCORD", href: "https://discord.gg/74RtuZmh2" },
-  { name: "TIKTOK", href: "https://discord.gg/74RtuZmh2" },
   { name: "YOUTUBE", href: "https://www.youtube.com/@riselkgaming" },
+  { name: "TIKTOK", href: "https://discord.gg/74RtuZmh2" },
+  { name: "DISCORD", href: "https://discord.gg/74RtuZmh2" },
+  { name: "WHATSAPP", href: "#" },
+  { name: "INSTAGRAM", href: "https://discord.gg/74RtuZmh2" },
+
 ];
 
 export default function ContactSection() {

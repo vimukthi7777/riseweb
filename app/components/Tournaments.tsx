@@ -11,6 +11,7 @@ interface Tournament {
   tag: string;
   image: string;
   registrationLink: string;
+  closing: string;
 }
 
 async function getTournaments(): Promise<Tournament[]> {
@@ -36,6 +37,7 @@ async function getTournaments(): Promise<Tournament[]> {
         tag: row.c[7]?.v ?? "",
         image: row.c[8]?.v ?? "",
         registrationLink: row.c[9]?.v ?? "",
+        closing:row.c[10]?.v ?? "",
       }))
       // Filter out header row and invalid/empty rows
       .filter(
@@ -151,7 +153,11 @@ export default async function Tournaments() {
                     </div>
                   </div>
 
-                  {t.registrationLink ? (
+                  {t.closing?.toUpperCase() === "CLOSED" ? (
+                    <button disabled className="w-full py-4 bg-red-500/20 text-red-400 font-black text-xs uppercase tracking-widest rounded-xl border border-red-500/30 cursor-not-allowed">
+                      Registrations Closed
+                    </button>
+                  ) : t.registrationLink ? (
                     <a
                       href={t.registrationLink}
                       target="_blank"
