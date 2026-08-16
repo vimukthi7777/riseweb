@@ -47,7 +47,7 @@ export default function GamesSection() {
             Our Library
           </h2>
           <h3 className="text-5xl font-black tracking-tighter uppercase italic">
-            Supported <span className="text-zinc-600">Titles</span>
+            Supported <span className="text-zinc-600">Games</span>
           </h3>
         </div>
 
