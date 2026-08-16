@@ -39,6 +39,7 @@ const teamMembers = [
     socials: {
       youtube: "https://www.youtube.com/@VimuwaStreams",
       tiktok: "https://www.tiktok.com/@vimuwa_777",
+      discord: "https://discord.gg/5KyDYNx75",
     },
   },
   {
@@ -46,6 +47,9 @@ const teamMembers = [
     title: "Developer",
     image: "/team/syrex.png",
     socials: {
+      youtube: "https://www.youtube.com",
+      tiktok: "https://www.tiktok.com",
+      discord: "https://discord.gg",
     },
   },
 ];
