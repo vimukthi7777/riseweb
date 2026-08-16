@@ -39,7 +39,6 @@ const teamMembers = [
     socials: {
       youtube: "https://www.youtube.com/@VimuwaStreams",
       tiktok: "https://www.tiktok.com/@vimuwa_777",
-      discord: "#",
     },
   },
   {
@@ -47,18 +46,15 @@ const teamMembers = [
     title: "Developer",
     image: "/team/syrex.png",
     socials: {
-      youtube: "#",
-      tiktok: "#",
-      discord: "#",
     },
   },
 ];
 
 const mainSocials = {
-  youtube: "https://www.youtube.com",
-  tiktok: "https://www.tiktok.com",
-  discord: "https://discord.gg/74RtuZmh2",
-  instagram: "",
+  youtube: "https://www.youtube.com/@risegaminglk",
+  tiktok: "https://www.tiktok.com/@risegaming_lk",
+  discord: "https://discord.gg/riselk",
+  // instagram: "",
 };
 
 export default function AboutUs() {
@@ -138,11 +134,11 @@ export default function AboutUs() {
 
               <div className="mt-12 grid grid-cols-2 gap-8">
                 <div>
-                  <div className="text-3xl font-black text-[#08D2C2] mb-1">PRO-LEVEL</div>
+                  <div className="text-3xl font-black text-[#08D2C2] mb-1">PRO LEVEL</div>
                   <div className="text-[10px] text-zinc-500 font-bold tracking-widest uppercase">Production Quality</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-black text-[#08D2C2] mb-1">FAIR-PLAY</div>
+                  <div className="text-3xl font-black text-[#08D2C2] mb-1">FAIR PLAY</div>
                   <div className="text-[10px] text-zinc-500 font-bold tracking-widest uppercase">Anti-Cheat Systems</div>
                 </div>
               </div>

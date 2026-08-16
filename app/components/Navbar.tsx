@@ -38,7 +38,7 @@ export default function Navbar() {
           ))}
         </nav>
         <a
-          href="https://discord.gg/74RtuZmh2"
+          href="https://discord.gg/riselk"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#08D2C2] hover:bg-[#07b5a5] text-black text-[10px] font-black px-6 py-2 rounded-full uppercase tracking-widest transition-all"
