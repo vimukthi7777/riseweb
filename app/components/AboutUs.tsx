@@ -124,13 +124,13 @@ export default function AboutUs() {
               </h3>
               
               <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
-                <p>
-                  <strong className="text-white">RISE LK</strong> started with a simple vision: to create a professional ecosystem for Sri Lankan gamers to showcase their skills on a global stage.
-                </p>
-                <p>
-                  Today, we are more than just a tournament organizer. We are a community of over 1000 players, creators, and enthusiasts who believe in the power of competitive gaming.
-                </p>
-              </div>
+  <p>
+    <strong className="text-white">RISE</strong> is a global esports community created to give players, teams, and creators a professional platform to compete, connect, grow, and showcase their talent worldwide.
+  </p>
+  <p>
+    Today, we are more than just a tournament organizer. We are a community of over 1000 players, creators, and enthusiasts who believe in the power of competitive gaming.
+  </p>
+</div>
 
               <div className="mt-12 grid grid-cols-2 gap-8">
                 <div>

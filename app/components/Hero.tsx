@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="text-left">
             <div className="max-w-2xl">
               <span className="bg-[#08D2C2]/10 border border-[#08D2C2]/20 text-[#08D2C2] font-black tracking-[0.3em] text-[10px] uppercase py-2 px-4 rounded-full">
-                The Ultimate Gaming Platform
+                The Ultimate Gaming Experience
               </span>
             </div>
             
