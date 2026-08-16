@@ -12,12 +12,15 @@ const footerSocials = [
 ];
 
 export default function ContactSection() {
-  const form = useRef(null);
+  const form = useRef<HTMLFormElement | null>(null);
   const [isSending, setIsSending] = useState(false);
   const [status, setStatus] = useState({ type: "", message: "" });
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!form.current) return;
+
     setIsSending(true);
     setStatus({ type: "", message: "" });
 
@@ -36,7 +39,7 @@ export default function ContactSection() {
           setStatus({ type: "success", message: "Message sent successfully!" });
           form.current?.reset();
         },
-        (error) => {
+        (error: { text?: string }) => {
           setIsSending(false);
           setStatus({
             type: "error",
