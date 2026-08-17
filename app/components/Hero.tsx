@@ -33,32 +33,37 @@ export default function Hero() {
             </p>
 
 
-            <div className="flex items-center gap-6 mb-12">
-              <div className="text-xs font-bold tracking-[0.2em] text-zinc-500 uppercase">Follow Us</div>
-              <div className="flex gap-4">
-                {Object.entries(mainSocials).map(([platform, link]) => (
-                  <a
-                    key={platform}
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-zinc-800/50 hover:bg-white border border-white/10 rounded-full flex items-center justify-center text-white transition-colors"
-                    aria-label={`RISE LK on ${platform}`}
-                  >
-                    <img src={`/${platform}.svg`} alt={platform} className="w-5 h-5" />
-                  </a>
-                ))}
-              </div>
-            </div>
+<div className="flex items-center gap-6 mb-12">
+  <div className="flex gap-4">
+    {Object.entries(mainSocials).map(([platform, link]) => (
+      <a
+        key={platform}
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-12 h-12 bg-zinc-800/50 hover:bg-white border border-white/10 rounded-full flex items-center justify-center text-white transition-colors"
+        aria-label={`RISE LK on ${platform}`}
+      >
+        <img src={`/${platform}.svg`} alt={platform} className="w-6 h-6" />
+      </a>
+    ))}
+  </div>
+</div>
 
             <div className="flex flex-col sm:flex-row items-start justify-start gap-6">
-              <a href="#tournaments" className="w-full sm:w-auto bg-[#08D2C2] hover:bg-[#07b5a5] text-black font-black py-5 px-12 uppercase tracking-widest rounded-xl transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(8,210,194,0.2)]">
-                Browse Tournaments
-              </a>
-              <a href="https://discord.gg/riselk" className="w-full sm:w-auto bg-[#5865F2] hover:bg-[#4e59d4] hover:scale-105  border border-white/10 text-white font-black py-5 px-12 uppercase tracking-widest rounded-xl transition-all">
-                Join Discord
-              </a>
-            </div>
+  <a
+    href="#tournaments"
+    className="w-full sm:w-auto text-center bg-[#08D2C2] hover:bg-[#07b5a5] text-black font-black py-5 px-12 uppercase tracking-widest rounded-xl transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(8,210,194,0.2)]"
+  >
+    Browse Tournaments
+  </a>
+  <a
+    href="https://discord.gg/riselk"
+    className="w-full sm:w-auto text-center bg-[#5865F2] hover:bg-[#4e59d4] hover:scale-105 border border-white/10 text-white font-black py-5 px-12 uppercase tracking-widest rounded-xl transition-all"
+  >
+    Join Discord
+  </a>
+</div>
 
             {/* Stats Section - Mobile */}
             <div className="md:hidden mt-16">
