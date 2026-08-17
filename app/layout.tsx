@@ -8,6 +8,9 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat
 export const metadata: Metadata = {
   title: "RISE LK",
   description: "Join the most competitive gaming tournaments in Sri Lanka. Rise among champions.",
+  icons: {
+    icon: '/RiseLogo.ico', // File placed in the public/ folder
+  },
 };
 
 export default function RootLayout({
