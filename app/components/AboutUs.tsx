@@ -9,7 +9,7 @@ const teamMembers = [
     socials: {
       youtube: "https://www.youtube.com/@juztygaming",
       tiktok: "https://www.tiktok.com/@juztygaming_jp",
-      discord: "https://discord.gg/WSBbMKfg9",
+      discord: "https://discord.gg/kzRxksn3cy",
     },
   },
   {
